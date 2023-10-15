@@ -12,3 +12,7 @@ console.log(test3);
 
 var test4 = typeof({});
 console.log(test4);
+
+console.log(typeof null);
+console.log(typeof undeclaredVariable);
+console.log(typeof function(){});
