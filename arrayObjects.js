@@ -4,9 +4,9 @@ clothes.push('cap');
 clothes.push('sneakers');
 clothes.push('pants');
 clothes.push('skirt');
-clothes.pop('skirt');
+clothes.pop();
 clothes.push('hood');
-console.log(clothes);
+console.log(clothes[2]);
 
 var favCar = {};
 favCar.color = 'skyblue';
